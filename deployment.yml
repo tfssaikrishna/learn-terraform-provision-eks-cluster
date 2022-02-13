@@ -18,7 +18,7 @@ spec:
         app: pythonapp
     spec:
       containers:
-      - image: hub.docker.com/deployanywhere/helloworld:v1
+      - image: hub.docker.com/skdockers01/my-app:1.0
         name: pythonapp
         ports:
         - containerPort: 8080
